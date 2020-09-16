@@ -181,10 +181,10 @@ public class LaunchHandler extends AbstractHandler {
 		} else if (arguments.getAccess() == InfobaseAccess.INFOBASE) {
 			authString += "/WA -";
 			if (!Strings.isNullOrEmpty(arguments.getUsername())) { 
-				authString += " /N " + arguments.getUsername();
+				authString += " /N \"" + arguments.getUsername() + "\"";
 			}
 			if (!Strings.isNullOrEmpty(arguments.getPassword())) { 
-				authString += " /P " + arguments.getPassword();
+				authString += " /P \"" + arguments.getPassword() + "\"";
 			}
 		}
 		
