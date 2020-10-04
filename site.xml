@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+
+   <description url="https://yansergey.github.io/edt.externalDesignerLauncher">
+      EDT External Designer Launcher Plugin Update Site
+   </description>
+
+   <feature url="features/ru.yanygin.dt.externalDesignerLauncher.plugin.feature_0.1.2.202009232247.jar"
+            id="ru.yanygin.dt.externalDesignerLauncher.plugin"
+            version="0.1.2.202009232247">
+      <category name="ExternalDesignerLauncher"/>
+   </feature>
+
+   <category-def name="ExternalDesignerLauncher" label="ExternalDesignerLauncher">
+      <description>
+         EDT External Designer Launcher Plugin.
+      </description>
+   </category-def>
+
+</site>
