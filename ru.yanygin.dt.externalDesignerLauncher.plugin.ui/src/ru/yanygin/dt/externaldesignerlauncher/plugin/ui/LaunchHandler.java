@@ -88,8 +88,8 @@ public class LaunchHandler extends AbstractHandler {
 					return null;
 				}
 				java.io.File file = new java.io.File(exDesigner);
-				if (!file.exists()) {
-					launchStatus = new Status(IStatus.ERROR, Activator.PLUGIN_ID, "External designer not found");
+				if (!file.isFile()) {
+					launchStatus = new Status(IStatus.ERROR, Activator.PLUGIN_ID, "External designer not found: " + file.toString());
 					Activator.log(launchStatus);
 					return null;
 				}
