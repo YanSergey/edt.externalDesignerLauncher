@@ -5,6 +5,7 @@
 [![GitHub All Releases](https://img.shields.io/github/downloads/YanSergey/edt.externalDesignerLauncher/total?style=flat-square)](https://github.com/YanSergey/edt.externalDesignerLauncher/releases)
 
 Запускатель альтернативного Конфигуратора 1С для EDT
+Может использоваться для завершения сеанса "Агента конфигуратора", который держит соединение с ИБ и не дает запустить конфигуратор. Для этого достаточно установить плагин и не прописывать в конфигурационном файле путь к альтернативному конфигуратору.
 
 ## 1. Установка:
 ### 1.1 Через файл
