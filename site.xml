@@ -5,9 +5,9 @@
       EDT External Designer Launcher Plugin Update Site
    </description>
 
-   <feature url="features/ru.yanygin.dt.externalDesignerLauncher.plugin.feature_0.1.2.202009232247.jar"
+   <feature url="features/ru.yanygin.dt.externalDesignerLauncher.plugin.feature_0.1.3.202009232247.jar"
             id="ru.yanygin.dt.externalDesignerLauncher.plugin"
-            version="0.1.2.202009232247">
+            version="0.1.3.202009232247">
       <category name="ExternalDesignerLauncher"/>
    </feature>
 
