@@ -164,6 +164,7 @@ public class LaunchHandler extends AbstractHandler {
 			arguments.setAccess(settings.access());
 			arguments.setUsername(settings.userName());
 			arguments.setPassword(settings.password());
+			arguments.setStartupOption(settings.additionalProperties());
 			
 		} catch (CoreException e) {
 			launchStatus = Activator.createErrorStatus(e);
@@ -186,6 +187,10 @@ public class LaunchHandler extends AbstractHandler {
 			if (!Strings.isNullOrEmpty(arguments.getPassword())) { 
 				authString += " /P \"" + arguments.getPassword() + "\"";
 			}
+		}
+		
+		if (!Strings.isNullOrEmpty(arguments.getStartupOption())) { 
+			authString += " " + arguments.getStartupOption();
 		}
 		
 		return authString;
